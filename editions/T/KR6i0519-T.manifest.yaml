@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0519/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0519/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說無希望經
+  identifiers:
+    krp: KR6i0519
+    cbeta: T17n0813
+    cbeta_old_id: T17n0813
+    authorityid: CA0003437
+    json_key: T0813
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0813.xml
+    old_id: T17n0813
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0519_000-T.yaml, hash: 'sha256:1247c5934276cd54cf5afb78e81be21e65c8a63e017c96894c727a2be2965742'}
+  - {seq: 1, filename: KR6i0519_001-T.yaml, hash: 'sha256:07073f76bf852fa2a4b884d19d63ae5a3c4086a16d07ccfe8d624536e48991c0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0519_000-T.markers.yaml, hash: 'sha256:e2518c5db2a18f343c9dfeaa371d9a4590d2541651dfa6b918fc771b5d5b9905'}
+  - {seq: 1, role: markers, filename: assets/KR6i0519_001-T.markers.yaml, hash: 'sha256:fe14c190e2826716053ebfc870bae2fe5bb129ebc727266ab27df23e1b9b5430'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0519_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8587
+  label: 佛說無希望經
+  type: juan
+  level: 1
+hash: sha256:d01dc4a89902f101ded4f5e5cd2c8acdd3c9cdc420c7855658504e6392871c9a
