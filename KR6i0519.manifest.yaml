@@ -40,9 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0519_000.yaml, hash: 'sha256:1247c5934276cd54cf5afb78e81be21e65c8a63e017c96894c727a2be2965742'}
-  - {seq: 1, filename: KR6i0519_001.yaml, hash: 'sha256:c16eb44412db012170e2bd4d4062821ac1e1751bb88d61f68344afe36230280d'}
+  - {seq: 1, filename: KR6i0519_001.yaml, hash: 'sha256:07073f76bf852fa2a4b884d19d63ae5a3c4086a16d07ccfe8d624536e48991c0'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0519_001.markers.yaml, hash: 'sha256:c4ce8f55258342e5d7c0c67c217fd7b7e71cea6c7118c6654e9b4b872c2e62a4'}
+  - {seq: 0, role: markers, filename: assets/KR6i0519_000.markers.yaml, hash: 'sha256:d154876d116089dc73f169c83054ce3560c25acf32b3879f5dfe195469d0d8e3'}
+  - {seq: 1, role: markers, filename: assets/KR6i0519_001.markers.yaml, hash: 'sha256:d7e5bdf6352cedcb06ec28868f3ccd00866ee241885c92c7e6051f23cd5a1195'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,7 +55,4 @@ table_of_contents:
   label: 佛說無希望經
   type: juan
   level: 1
-hash: sha256:892d63a72fc7d335a958f79a826dd3968a1153f2c7ab1957818b9a93babe2318
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5cb9f9c8516b667d3bf08edb7e96cd71fd8e029e0ecbd0992e9f2df5a7300960
