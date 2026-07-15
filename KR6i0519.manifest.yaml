@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0519/v1
 canonical_location: https://kanripo.org/bkk/KR6i0519/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說無希望經
   identifiers:
@@ -40,10 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0519_000.yaml, hash: 'sha256:1247c5934276cd54cf5afb78e81be21e65c8a63e017c96894c727a2be2965742'}
-  - {seq: 1, filename: KR6i0519_001.yaml, hash: 'sha256:07073f76bf852fa2a4b884d19d63ae5a3c4086a16d07ccfe8d624536e48991c0'}
+  - {seq: 1, filename: KR6i0519_001.yaml, hash: 'sha256:5c8a73708d52cd5e2c9a9f59d2cb1d7c8341482516cab08d556296aa8eb79861'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0519_000.markers.yaml, hash: 'sha256:d154876d116089dc73f169c83054ce3560c25acf32b3879f5dfe195469d0d8e3'}
-  - {seq: 1, role: markers, filename: assets/KR6i0519_001.markers.yaml, hash: 'sha256:d7e5bdf6352cedcb06ec28868f3ccd00866ee241885c92c7e6051f23cd5a1195'}
+  - {seq: 1, role: markers, filename: assets/KR6i0519_001.markers.yaml, hash: 'sha256:71da0c2c7e58d8a5aaa585427549ba1bf77258a1bbd72a964c1c2526fb41a7de'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 佛說無希望經
   type: juan
   level: 1
-hash: sha256:5cb9f9c8516b667d3bf08edb7e96cd71fd8e029e0ecbd0992e9f2df5a7300960
+hash: sha256:306ad4052d4c80a313404f8bc2c8fff279438db633a9101d78a7e841c183078d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
